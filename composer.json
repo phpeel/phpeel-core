@@ -1,0 +1,33 @@
+{
+    "name": "phpeel/phpeel-core",
+    "description": "A core system of the PHP Framework 'Phpeel'.",
+    "license": "MIT",
+    "keywords": [
+        "php framework core",
+        "php framework",
+        "framework core",
+        "phpeel core"
+    ],
+    "homepage": "https://github.com/phpeel/phpeel-core",
+    "authors": [
+        {
+            "name" : "Phpeel Core Contributors",
+            "homepage": "https://github.com/phpeel/phpeel-core/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "phpeel/apricot-lib": "dev-develop",
+        "phpeel/citron-di": "dev-develop"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "squizlabs/php_codesniffer": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpeel\\PhpeelCore\\": "src/",
+            "Phpeel\\PhpeelCore\\Tests\\": "tests/src/"
+        }
+    }
+}
